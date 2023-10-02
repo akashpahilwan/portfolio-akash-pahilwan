@@ -116,6 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const blogUrl = `${window.location.href  }pensieve/`;
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -154,9 +155,8 @@ const About = () => {
               of clients.
             </p>
             <p>
-              I also recently started writing{' '}
-              <a href="http://127.0.0.1:8000/pensieve/">tech blogs</a> that covers everything you
-              need to learn for begineer Data Engineer roles.
+              I also recently started writing <a href={blogUrl}>tech blogs</a> that covers
+              everything you need to learn for begineer Data Engineer roles.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
