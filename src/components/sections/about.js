@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
-  const blogUrl = `${window.location.origin}/pensieve/`;
+  const blogUrl = `/pensieve/`;
 
   useEffect(() => {
     if (prefersReducedMotion) {
