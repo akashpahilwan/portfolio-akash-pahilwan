@@ -121,6 +121,7 @@ const Footer = () => {
             </div>
           )}
         </a>
+        <div>Modified by Akash Pahilwan.</div>
       </StyledCredit>
     </StyledFooter>
   );
