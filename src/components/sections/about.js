@@ -155,7 +155,7 @@ const About = () => {
             </p>
             <p>
               I also recently started writing{' '}
-              <a href="http://localhost:8000/pensieve/">tech blogs</a> that covers everything you
+              <a href="http://127.0.0.1:8000/pensieve/">tech blogs</a> that covers everything you
               need to learn for begineer Data Engineer roles.
             </p>
 
