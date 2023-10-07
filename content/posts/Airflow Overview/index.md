@@ -15,6 +15,10 @@ In today's data-centric world, the efficient management and orchestration of dat
 
 **_Apache Airflow_** is a powerful and flexible workflow automation tool for orchestrating complex data tasks. Developed by Airbnb and later open-sourced, it has gained widespread adoption in various industries due to its ability to automate, schedule, and monitor workflows with ease. Airflow provides a robust framework for managing dependencies, retries, and dynamic scheduling, making it an invaluable tool for data engineering and automation.
 
+## Architecture
+
+![Airflow Architecture](./architecture.png)
+
 ## Key Components of Airflow:
 
 1. **_Scheduler:_** The core of Airflow, the scheduler, manages the execution of tasks on a trigger or schedule basis. It decides when and how to run jobs based on their dependencies and specified schedules.
