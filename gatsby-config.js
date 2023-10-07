@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Akash Pahilwan Portfolio',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Akash Pahilwan is a software/Data engineer specializing in building (and occasionally designing) ETL pipelines and orchestrate.',
+    siteUrl: 'https://https://akash-pahilwan-portfolio.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@pahilwan_akash',
   },
